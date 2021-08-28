@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.1.4/dist/css/datepicker.min.css">
+        <link rel="stylesheet" type="text/css" href="./index.css"/>
+    </head>
+    <body class="body-style">
+        <div id="spinner"></div>
+        <div class="header-div">
+            <div>
+                <label>Magnitude</label>
+                <input class="input-style" type="number" name="magnitude" id="magnitude">
+            </div>
+            <div id="date-range" class="d-flex">
+                <span>From</span>
+                <input class="input-style" type="text" name="start" id="start">
+                <span>to</span>
+                <input class="input-style" type="text" name="end" id="end">
+            </div>
+            <div>
+                <button id="submit" class="submit-button">Submit</button>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.1.4/dist/js/datepicker-full.min.js"></script>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
